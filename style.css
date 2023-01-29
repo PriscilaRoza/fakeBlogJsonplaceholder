@@ -1,0 +1,104 @@
+body {
+    background-color: lightblue;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+    font-size: 72px;
+        background: -webkit-linear-gradient(#cb6e21, #a16fdb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.posts img {
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.testeRapido {
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(120deg, #0091f4 0, #008cf5 5%, #0487f4 10%, #5082f1 15%, #727ceb 20%, #8c76e4 25%, #a16fdb 30%, #b368d0 35%, #c261c5 40%, #ce5bb8 45%, #d855aa 50%, #e0519c 55%, #e54e8d 60%, #e84d7f 65%, #e94e70 70%, #e85262 75%, #e55654 80%, #e15c47 85%, #db623a 90%, #d3682e 95%, #cb6e21 100%);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+
+}
+
+input,
+textArea {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+}
+
+textArea {
+    font-size: 16px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+button:hover{
+    background-color: #ffbd87;
+    color: #fff;
+    cursor: pointer;
+}
+
+legend {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    color: #0091f4;
+    text-shadow:
+            -1px -1px 0px #FFF,
+            -1px 1px 0px #FFF,
+            1px -1px 0px #FFF,
+            1px 0px 0px #FFF;
+}
+.posts h2{
+    color: #ffbd87;
+
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ffbd87, #e85262, #d855aa, #0091f4) border-box;
+
+}
+footer{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        width: 100vw;
+    }
+    h1, legend{
+        font-size: 30px;
+    }
+    .posts{
+        width: 90vw;
+        margin-right: 50px;
+    }
+}
+
